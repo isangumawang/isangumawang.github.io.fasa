@@ -1,0 +1,60 @@
+<html>
+
+<style>
+    body {
+             background: url('https://www.alodokter.com/wp-content/uploads/2020/12/Pentingnya-Self-Love-dan-Cara-Menerapkannya.jpg') }
+
+    h2 {
+             color: white;
+              text-align: center;}
+
+    label { 
+             color: white;}
+ 
+</style>
+<body>
+    <br>
+
+    <h2>
+        Hai, Fasa. Apa Kabar?
+        <br>
+        Sebelumnya terima kasih ya, udah mau buka link ini. I hope you like it.
+    </h2>
+
+    <form style="text-align: center;" action="index1.html" id="myform" onsubmit="return validate();" method="get" autocomplete="off">
+        <div>
+            <label for="username">Username Instagram: </label>
+            <input type="text" name="username" id="username" placeholder="Enter username.."  required>
+            <input style="color: white; background: green; " type="submit" name="submit" value="Login"/>
+        </div>
+    
+    </form>
+      
+</body>
+
+<body>
+
+<script type="text/javascript">
+
+      alert('Hai, Selamat Datang Fasa!');
+
+ function validate(){
+    var userig = document.forms["myform"]["username"].value.toLowerCase();
+    
+    if(userig == "fasa.aca") {
+         alert("Validation successfully")
+         return true;
+        }
+         else {            
+            alert("Validation failed");
+            return false;
+         }
+
+ }
+
+</script>
+</body>
+
+
+</html>
+
